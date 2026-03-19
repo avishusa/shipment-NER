@@ -1,0 +1,6 @@
+Speaker 1: Can you pull up the details on waybill WB-9910?
+Speaker 2: Yes, waybill WB-9910 covers shipment SHP-3301, carrying auto parts out of Memphis.
+Speaker 1: What is the destination?
+Speaker 2: It is heading to Atlanta. About 18000 lbs, 2 carloads.
+Speaker 1: Any issues?
+Speaker 2: There is a mechanical issue causing a delay. New ETA is end of week.

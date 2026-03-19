@@ -1,0 +1,9 @@
+{
+  "conversation_id": "chat_001",
+  "messages": [
+    {"speaker": "customer", "text": "Hi, can you tell me the status of shipment SHP-1042?"},
+    {"speaker": "agent",    "text": "Sure! SHP-1042 departed Chicago this morning."},
+    {"speaker": "customer", "text": "When will it arrive in Houston?"},
+    {"speaker": "agent",    "text": "ETA is March 28. There was a slight delay due to weather hold."}
+  ]
+}

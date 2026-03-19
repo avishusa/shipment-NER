@@ -1,0 +1,14 @@
+From: ops@carrier.com
+To: customer@example.com
+Subject: Update on Shipment SHP-2091
+Date: 2024-03-15
+
+Dear Customer,
+
+Waybill WB-8821 has been assigned to your shipment SHP-2091.
+Equipment BNSF-442201 is loaded with grain (42 tons, 3 carloads).
+The shipment departed Kansas City and is en route to Dallas.
+Estimated arrival is March 22. No delays at this time.
+
+Regards,
+Operations Team
