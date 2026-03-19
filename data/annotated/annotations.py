@@ -29,8 +29,8 @@ ANNOTATED_EXAMPLES = [
         "Customer: What is the waybill number for my order?\n"
         "Agent: Your waybill is WB-8821 and the equipment ID is BNSF-442201.",
         [
-            ("WB-8821",    "WAYBILL_ID"),
-            ("BNSF-442201","EQUIPMENT_ID"),
+            ("WB-8821",     "WAYBILL_ID"),
+            ("BNSF-442201", "EQUIPMENT_ID"),
         ]
     ),
 
@@ -86,14 +86,14 @@ ANNOTATED_EXAMPLES = [
         "Shipment SHP-7712 arrived at Atlanta on schedule.\n"
         "Equipment TTGX-998871 carried 2 carloads from Nashville.",
         [
-            ("auto parts",   "COMMODITY"),
-            ("18000 lbs",    "WEIGHT"),
-            ("SHP-7712",     "SHIPMENT_ID"),
-            ("Atlanta",      "DESTINATION"),
-            ("on schedule",  "STATUS"),
-            ("TTGX-998871",  "EQUIPMENT_ID"),
-            ("2 carloads",   "CARLOADS"),
-            ("Nashville",    "ORIGIN"),
+            ("auto parts",  "COMMODITY"),
+            ("18000 lbs",   "WEIGHT"),
+            ("SHP-7712",    "SHIPMENT_ID"),
+            ("Atlanta",     "DESTINATION"),
+            ("on schedule", "STATUS"),
+            ("TTGX-998871", "EQUIPMENT_ID"),
+            ("2 carloads",  "CARLOADS"),
+            ("Nashville",   "ORIGIN"),
         ]
     ),
 
@@ -122,12 +122,12 @@ ANNOTATED_EXAMPLES = [
         "Speaker 1: When do we expect it in Chicago?\n"
         "Speaker 2: New ETA is end of week.",
         [
-            ("SHP-5501",           "SHIPMENT_ID"),
-            ("delayed",            "STATUS"),
-            ("track obstruction",  "DELAY_REASON"),
-            ("Kansas City",        "ORIGIN"),
-            ("Chicago",            "DESTINATION"),
-            ("end of week",        "ETA"),
+            ("SHP-5501",          "SHIPMENT_ID"),
+            ("delayed",           "STATUS"),
+            ("track obstruction", "DELAY_REASON"),
+            ("Kansas City",       "ORIGIN"),
+            ("Chicago",           "DESTINATION"),
+            ("end of week",       "ETA"),
         ]
     ),
 
@@ -145,6 +145,7 @@ ANNOTATED_EXAMPLES = [
             ("in transit",  "STATUS"),
         ]
     ),
+
     # --- Additional CHAT examples ---
     (
         "Customer: Can you check on shipment SHP-8801?\n"
@@ -206,13 +207,13 @@ ANNOTATED_EXAMPLES = [
         "Agent: Carrying grain, 6 carloads, total 90 tons.\n"
         "Agent: Destination is Kansas City. Status is in transit.",
         [
-            ("SHP-7733",   "SHIPMENT_ID"),
-            ("Houston",    "ORIGIN"),
-            ("grain",      "COMMODITY"),
-            ("6 carloads", "CARLOADS"),
-            ("90 tons",    "WEIGHT"),
-            ("Kansas City","DESTINATION"),
-            ("in transit", "STATUS"),
+            ("SHP-7733",    "SHIPMENT_ID"),
+            ("Houston",     "ORIGIN"),
+            ("grain",       "COMMODITY"),
+            ("6 carloads",  "CARLOADS"),
+            ("90 tons",     "WEIGHT"),
+            ("Kansas City", "DESTINATION"),
+            ("in transit",  "STATUS"),
         ]
     ),
 
@@ -253,12 +254,12 @@ ANNOTATED_EXAMPLES = [
         "Equipment RAIL-887766 carried lumber weighing 38 tons.\n"
         "Departed from Memphis on March 14. No delays reported.",
         [
-            ("SHP-2244",   "SHIPMENT_ID"),
-            ("Atlanta",    "DESTINATION"),
-            ("RAIL-887766","EQUIPMENT_ID"),
-            ("lumber",     "COMMODITY"),
-            ("38 tons",    "WEIGHT"),
-            ("Memphis",    "ORIGIN"),
+            ("SHP-2244",    "SHIPMENT_ID"),
+            ("Atlanta",     "DESTINATION"),
+            ("RAIL-887766", "EQUIPMENT_ID"),
+            ("lumber",      "COMMODITY"),
+            ("38 tons",     "WEIGHT"),
+            ("Memphis",     "ORIGIN"),
         ]
     ),
 
@@ -285,12 +286,12 @@ ANNOTATED_EXAMPLES = [
         "Speaker 1: And the equipment?\n"
         "Speaker 2: Equipment BNSF-334411 handled the load. 3 carloads of lumber.",
         [
-            ("SHP-4466",   "SHIPMENT_ID"),
-            ("delivered",  "STATUS"),
-            ("Dallas",     "DESTINATION"),
-            ("BNSF-334411","EQUIPMENT_ID"),
-            ("3 carloads", "CARLOADS"),
-            ("lumber",     "COMMODITY"),
+            ("SHP-4466",    "SHIPMENT_ID"),
+            ("delivered",   "STATUS"),
+            ("Dallas",      "DESTINATION"),
+            ("BNSF-334411", "EQUIPMENT_ID"),
+            ("3 carloads",  "CARLOADS"),
+            ("lumber",      "COMMODITY"),
         ]
     ),
 
@@ -319,13 +320,13 @@ ANNOTATED_EXAMPLES = [
         "Speaker 1: Status?\n"
         "Speaker 2: In transit, no issues.",
         [
-            ("SHP-8899",   "SHIPMENT_ID"),
-            ("chemicals",  "COMMODITY"),
-            ("Houston",    "ORIGIN"),
-            ("4 carloads", "CARLOADS"),
-            ("48 tons",    "WEIGHT"),
-            ("Kansas City","DESTINATION"),
-            ("In transit", "STATUS"),
+            ("SHP-8899",    "SHIPMENT_ID"),
+            ("chemicals",   "COMMODITY"),
+            ("Houston",     "ORIGIN"),
+            ("4 carloads",  "CARLOADS"),
+            ("48 tons",     "WEIGHT"),
+            ("Kansas City", "DESTINATION"),
+            ("In transit",  "STATUS"),
         ]
     ),
 
@@ -339,7 +340,7 @@ ANNOTATED_EXAMPLES = [
             ("SHP-1122",   "SHIPMENT_ID"),
             ("Atlanta",    "ORIGIN"),
             ("WB-9981",    "WAYBILL_ID"),
-            ("auto parts", "COMMODITY"),
+            ("Auto parts", "COMMODITY"),
             ("22 tons",    "WEIGHT"),
             ("Nashville",  "DESTINATION"),
             ("March 30",   "ETA"),
@@ -379,4 +380,5 @@ ANNOTATED_EXAMPLES = [
             ("30 tons",      "WEIGHT"),
         ]
     ),
+
 ]
