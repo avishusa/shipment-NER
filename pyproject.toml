@@ -1,0 +1,5 @@
+[project]
+name = "shipment-ner"
+version = "0.1.0"
+description = "Multi-source shipment entity extraction using NER"
+requires-python = ">=3.10"
